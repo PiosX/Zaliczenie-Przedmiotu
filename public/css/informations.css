@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #060606;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.top-container{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+
+.top-container a{
+    line-height: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+.top-container a:hover{
+    color: #00ffff;
+}
+
+.top-container nav{
+    margin-left: 40px;
+    width: 60%;
+    float: left;
+}
+
+#homeLog{
+    position: absolute;
+    right: 2%;
+    margin-top: 20px;
+    padding: 15px 25px 15px 25px;
+    margin-left: 60%;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    background-color: #060606;
+    border: none;
+    cursor: pointer;
+    color: #00ffff;
+    border: 1px solid #00ffff;
+}
+
+#homeLog:hover{
+    background-color: #e91e63;
+    border: 1px solid #e91e63;
+    color: white;
+    font-weight: bold;
+}
+
+.mid-container{
+    width: 100%;
+    height: 97vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#avatar{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    float: right;
+    margin-right: 10%;
+    position: relative;
+    top: 30%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #ffff0f;
+}
+
+#avatarHref{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#tinyAvatar{
+    position: absolute;
+}
+
+#ranking{
+    width: 70%;
+    height: 80%;
+    background-color: #222222;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    border-radius: 10px;
+}
+
+td img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#rankTable a{
+    text-decoration: none;
+    color: white;
+}
+
+#rankLink:hover{
+    color: #ffff0f;
+}
+
+#ranking table{
+    margin: auto;
+}
+
+#rankTable{
+    border-collapse: collapse;
+}
+
+#rankTable tbody tr{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#rankTable td{
+    color: white;
+}
+
+#rankTable th{
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #11ACDD;
+}
+
+#rankLink{
+    border-right: 1px solid white;
+    padding: 10px 140px 10px 0px;
+}
+
+#rankLink a:hover{
+    color: #00ffff;
+}
+
+#rankIm{
+    border-right: none;
+    padding: 10px 30px 10px 30px;
+}
+
+#rankP{
+    border: 1px solid white;
+    padding: 10px 30px 10px 30px;
+}
+
+#rankPos{
+    border: 1px solid white;
+    padding: 10px 140px 10px 140px;
+}
+
+#rankW{
+    border: 1px solid white;
+    padding: 10px 140px 10px 140px;
+}
+
+#hRankName{
+    text-align: left;
+    padding-left: 10px;
+    border-left: 0 !important;
+}
+
+#hRankW{
+    border-right: 1px solid white;
+}
+
+#hRankR{
+    border: none !important;
+}
+
+#hRankIm{
+    border-right: 0 !important;
+}
+
+#rankTable #rankP{
+    color: #ffff0f;
+}
+
+h1{
+    text-align: center;
+    color: #ffff0f;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#rank-container{
+    width: 80%;
+    height: 75%;
+    overflow: auto;
+    background-color: #282828;
+    margin: auto;
+    padding-top: 30px;
+    border-radius: 10px;
+}
